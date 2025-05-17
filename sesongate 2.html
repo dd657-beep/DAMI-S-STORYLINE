@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Season 1 Access</title>
+  <link rel="stylesheet" href="css/style.css"> <!-- optional -->
+</head>
+<body>
+  <h2>Enter Password to Access Season 1</h2>
+  <input type="password" id="passwordInput" placeholder="Enter password">
+  <button onclick="checkPassword()">Submit</button>
 
+  <script>
+    function checkPassword() {
+      const password = document.getElementById('passwordInput').value;
+      if (password === "CHAPTER 2 pass") {
+        window.location.href = "season1.html"; // redirect if correct
+      } else {
+        alert("Incorrect password!");
+      }
+    }
+    password (1234)
+  </script>
+</body>
+</html>
+`
